@@ -1,0 +1,51 @@
+header, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(37,41,46);
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.flexbox {
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+ol {
+    display: inline-block;
+    text-align: left;
+}
+ol.tema {
+    list-style-type: decimal;
+    font-weight: bold;
+}
+ol.otazky {
+    list-style-type: lower-alpha;
+    line-height: 120%;
+    font-weight: normal;
+}
+.tema li {
+    margin-bottom: 5px;
+}
+.otazky li:last-of-type {
+    margin-bottom: 20px;
+}
+a {
+    color: inherit;
+}
